@@ -1,0 +1,37 @@
+﻿#welcome-image {
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553_960_720.jpg");
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+h1{
+    margin-top:0px;
+    font-family:'Times New Roman';
+}
+p{
+    font-family:'Times New Roman';
+    margin:10px:
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+    background-color: #30a1e2;
+    padding-top: 210px;
+    padding-bottom: 10%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background: #30a1e2;
+    position: fixed;
+    width: 100vw;
+}
+
+    header img {
+        width: 20%;
+    }
