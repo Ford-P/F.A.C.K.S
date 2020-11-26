@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Tab Title-->
+        <title>Blog it Out</title>
+        <link rel='stylesheet' href='blog.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <header> 
+      <!--Logo picture with link as you click the logo-->
+      <a href="home.html">
+        <img src="Logos-02.png" alt="facks">
+      </a>
+      <!--Navbar-->
+      <nav>
+          <ul>
+            <li><a href='#'>Home</a></li>
+            <li><a href='News.html'>News</a></li>
+            <li><a href='#'>Information</a></li>
+            <li><a href='#'>Sources</a></li>
+            <li><a href='#'>Statistic</a></li>
+            <li><a href='Gallery.html' class='active'>Gallery</a></li>
+            <li><a href='Blog.html'>Blog</a></li>
+            <li><a href='#'>Events</a></li>
+            <li><a href='#'>About Us</a></li> 
+            <li><a href='Contacts.html'>Contacts</a></li>
+          </ul>
+      </nav>
+      <div class="breadcrumb">
+        <a href="Gallery.html">Gallery</a>
+      </div>
+    </header>
+    <body>
+      <div class="main">
+        <aside>
+          <div class="elfsight-app-ffeef132-42ac-43de-8ad1-16001e1c0b99">
+          </div>
+          <br><br>
+          <h2 class="sideh2">NHS Information</h2>
+          <div id="db">
+            <iframe src="https://api-bridge.azurewebsites.net/conditions/?p=coronavirus-covid-19&aspect=name,overview_short,symptoms_short,symptoms_long,treatments_overview_short,other_treatments_long,self_care_long,prevention_short,causes_short&tab=1&uid=gallery.html" ></iframe>
+          </div>
+        </aside>
+        <section>
+          <h2 id="exp">Covid Experience</h2>
+          <div class="blog-container">
+            <div class="commentBox">
+              <textarea rows="10" id="text" placeholder="Write your experience...." ></textarea>
+            </div>
+            <br>
+            <div class="form">
+              <b>Email:</b>
+              <input type="email" id="email" placeholder="...." name="email" required>
+            </div>
+            <div class="form">
+              <b>Name:</b>
+              <input type="text" id="name" placeholder="...." name="name">
+            </div>
+            <div class="form">
+              <input type="checkbox" name="anon"> <b> Anonymous</b>
+            </div>
+            <button class="form" type="button" onclick="post()">Post</button>
+            <br><br>
+            <div class="blogEntry" id="entry">
+              <p id="commentText"></p>
+            </div>  
+          </div>
+        
+        </section>
+        
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="blog.js"></script> 
+    </body>
+    <footer>
+      <div class="footerLogo">
+          <img src="Logos-04.png" alt="footerLogo">
+          <h3>Copyright © 2020 All Rights Reserved by F.A.C.K.S Society</h3>
+      </div>
+      <div class="footerLinks">
+          <p class="links">
+              <a href= "#">Support Us</a>
+              <a href= "#">F.A.Q</a>
+              <a href= "#">Policies</a>
+              <a href= "#">Terms&Conditions</a>
+              <a href= "#">Cookies</a>
+          </p>
+      </div>
+      <div class="SocialIcons">
+          <a href= "#"><img src="googleplus.png" alt="GP"></a>
+          <a href= "#"><img src="Instagram.png" alt="IG"></a>
+          <a href= "#"><img src="Facebook.png" alt="FB"></a>
+          <a href= "#"><img src="Twitter.png" alt="TW"></a>
+          <a href= "#"><img src="Linkedin.png" alt="LI"></a>
+      </div>
+  </footer>   
+</html>
