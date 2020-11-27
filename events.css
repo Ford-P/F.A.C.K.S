@@ -35,3 +35,174 @@ body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+/*---CSS CODE---*/
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    padding-top: 250px;
+}
+
+header {
+    background: #30a1e2;
+    position: fixed;
+    width: 100vw;
+}
+
+    header img {
+        width: 20%;
+    }
+/*---start of navbar design*/
+nav {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 100vw;
+}
+
+ul:not(.dropdown):not(.symptoms) {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li:not(.dropdownElements):not(.symptomsList) {
+    border-right: 2px solid #30a1e2;
+    border-bottom: 2px solid #575757;
+    width: 10%;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a:not(.symptomsList) {
+    display: inline;
+    padding: 10px 15px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+li:hover:not(.symptomsList) {
+    background-color: #fff600;
+}
+
+.active {
+    background-color: #fff600;
+}
+
+.dropdown {
+    top: 41px;
+    left: -2px;
+    right: -2px;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    border: 2px solid #30a1e2;
+}
+
+nav ul li:hover ul:not(.symptomsList) {
+    display: block;
+}
+
+.dropdownElements {
+    list-style: none;
+    float: left;
+}
+
+    .dropdownElements:hover {
+        background-color: #fff600;
+    }
+
+nav ul li ul li a:not(.symptomsList) {
+    float: left;
+}
+
+.resize {
+    width: 30px;
+    height: auto;
+}
+
+.resize {
+    width: 10px;
+    height: auto;
+}
+
+/*---End of navbar design---*/
+
+.footer {
+    padding-top: 150px;
+}
+
+.footerLinks {
+    text-align: center;
+    margin-left: 40px;
+    padding-left: 4.5%;
+    display: inline-block;
+    word-wrap: normal;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+.footerSection {
+    width: 1000px;
+    height: 100px;
+    background-color: #ffffff;
+    padding-top: 40px;
+    position: absolute;
+    float: none;
+    display: inline-flex;
+}
+
+.footerLogo {
+    padding-left: 100px;
+    padding-top: 25px;
+    position: relative;
+    display: inline;
+}
+
+.linkSeperation {
+    display: inline;
+    padding-left: 60px;
+    margin-left: 60px;
+}
+
+a.footerLinks:link {
+    color: #575757;
+}
+
+a.footerLinks:visited {
+    color: #30a1e2;
+}
+
+a.footerLinks:hover {
+    color: #fff600;
+}
+
+a.footerLinks:active {
+    color: #fff600;
+}
+
+.footerCopyright {
+    float: right;
+    padding-right: 5%;
+    padding-top: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #575757;
+}
+
+hr {
+    width: 98%;
+}
