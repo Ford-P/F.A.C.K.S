@@ -23,11 +23,8 @@
     margin:5px;
 }
 .content {
-    width: 50vw;
+    width: 50%;
     background-color: #30a1e2;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
     margin-bottom: 10%;
 }
 
