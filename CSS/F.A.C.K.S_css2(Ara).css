@@ -1,4 +1,4 @@
-.boxOne {
+..boxOne {
     border: 2px solid #12181b;
     text-align: center;
     float: left;
@@ -251,5 +251,6 @@ nav ul li ul li a:not(.symptomsList){
   .SocialIcons img:hover{
     color: #575757;
   }
+  
   /* END OF FOOTER CSS*/
   
