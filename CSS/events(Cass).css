@@ -24,9 +24,12 @@
 }
 .content {
     width: 50%;
+    margin: auto;
+    padding-top: 250px;
+    padding-bottom: 80%
     background-color: #30a1e2;
     margin-bottom: 10%;
-    padding-top: 250px;
+
 }
 
 /*---CSS CODE---*/
@@ -35,9 +38,8 @@ body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-
 main {
-  padding-top: 250px;
+    padding-top: 250px;
 }
 header {
     top:0;
