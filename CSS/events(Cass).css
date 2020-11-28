@@ -44,7 +44,6 @@ main {
     padding-top: 250px;
 }
 header {
-    top:0;
     background: #30a1e2;
     position: fixed;
     width: 100vw;
