@@ -16,6 +16,9 @@
     width:98%;
 
 }
+.event-info p{
+    text-align: justify;
+}
 .event-info {
     width: 70%;
     clear:none;
@@ -25,7 +28,6 @@
 .content {
     width: 50%;
     background-color: #30a1e2;
-    margin-top:250px;
     margin-bottom: 10%;
 
 }
