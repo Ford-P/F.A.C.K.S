@@ -26,11 +26,14 @@
     width: 50%;
     margin: auto;
     padding-top: 250px;
+    padding-bottom: 80%
     background-color: #30a1e2;
-    margin-bottom: 10%;
 
 }
-
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
 /*---CSS CODE---*/
 
 body {
@@ -125,6 +128,10 @@ nav ul li:hover ul:not(.symptomsList) {
 
 nav ul li ul li a:not(.symptomsList) {
     float: left;
+}
+.resize {
+    width: 30px;
+    height: auto;
 }
 
 .resize {
