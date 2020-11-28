@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="CSS/Facks_css(Ford).css">
+  <script src="Javascript/Ford's_Scripts.js"></script>
+</head>
+
+<body>
+
+  <div class="main-container">
+
+<!--START OF HEADER-->
+  <header>
+          <!--Logo picture with link as you click the logo-->
+          <div id = "logoBar">
+          <a href="index.html">
+            <img src="images/Logos-02.png" alt="facks" id = "headerLogo">
+          </a>
+          </div>
+          <!--Navbar-->
+          <nav>
+            <ul>
+              <li><a href='index.html' >Home</a></li>
+              <li><a href='News.html'>News</a></li>
+              <li><a href='#'>Information<img class="resize" src="images/Dropdown.png" alt="Drop down icon"></a>
+                <ul class="dropdown">
+                    <li class="dropdownElements"><a href="CovidInfo.html">What is COVID 19</a></li>
+                    <li class="dropdownElements"><a href="Symptoms.html">Symptoms</a></li>
+                    <li class="dropdownElements"><a href="Protection.html">Protection</a></li>
+                    <li class="dropdownElements"><a href="Risk.html">Risk groups</a></li>
+                </ul>
+            </li>
+              <li><a href='sources.html'>Sources</a></li>
+              <li><a href='Stats.html'>Statistic</a></li>
+              <li><a href='Gallery.html'>Gallery</a></li>
+              <li><a href='Blog.html'>Blog</a></li>
+              <li><a href='Events.html'>Events</a></li>
+              <li><a href='aboutUs.html'>About Us</a></li> 
+              <li><a href='Contacts.html' class="active">Contacts</a></li>
+            </ul>
+        </nav>
+          
+  </header>
+<!--END OF HEADER-->
+
+
+<!--START OF MAIN-->
+<main>
+
+<div class="contactContainer">
+
+  <div class="breadcrumb">
+    <a href="Contacts.html">Contacts</a>
+  </div>
+
+  <div class = h1Contact>
+  <h1>Contacts</h1>
+  </div>
+
+  <div class = "shadowANi"></div>
+  <div class = "contactBorder">
+    <section class="contactBox">
+    <a href="GettingMedicalHelp.html" class="contactTextLink">Getting Medical Help</a>
+    </section>
+
+  <br>
+
+    <section class="contactBox">
+      <a href="https://www.nhs.uk/contact-us/" class="contactTextLink">Contact the NHS</a>
+    </section>
+
+  <br>
+
+    <section class="contactBox">
+      <a href="#" class="contactTextLink" onclick="openForm()">Give us Feedback<a>
+    </section>
+
+      <div class="popup-overlay"></div>
+      <div class="popup">
+        <div class="popup-close" onclick="closeForm()">&times;</div>
+        <div class="form">
+          <div class="avatar">
+            <img src="images/Logos-05.png" alt="">
+          </div>
+          <div class="header">
+              Have a question? or give us feedback!
+          </div>
+          <div class="element">
+            <label for="username">Fullname</label>
+            <input type="text" id="username">
+          </div>
+          <div class="element">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+          </div>
+    
+          <div class="element">
+            <label for="password">Message</label>
+            <textarea type="text" id="message" rows="5" cols="55"></textarea>
+          </div>
+          <div class="element" onclick="submitForm()">
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+        
+<!--END OF MAIN-->
+
+<p class = "madeBy">page made by Ford Phanuthat</p>
+
+<!--START OF FOOTER-->
+  <footer>
+    <head>
+        <title>Footer</title>
+        <link rel='stylesheet' href='footer.css'>
+    </head>
+    <footer>
+        <div class="footerLogo">
+            <img src="images/Logos-04.png" alt="footerLogo">
+            <h3>Copyright © 2020 All Rights Reserved by F.A.C.K.S Society</h3>
+        </div>
+        <div class="footerLinks">
+            <p class="links">
+                <a href= "#">Support Us</a>
+                <a href= "#">F.A.Q</a>
+                <a href= "#">Policies</a>
+                <a href= "#">Terms&Conditions</a>
+                <a href= "#">Cookies</a>
+            </p>
+        </div>
+        <div class="SocialIcons">
+            <a href= "#"><img src="images/googleplus.png" alt="GP"></a>
+            <a href= "#"><img src="images/Instagram.png" alt="IG"></a>
+            <a href= "#"><img src="images/Facebook.png" alt="FB"></a>
+            <a href= "#"><img src="images/Twitter.png" alt="TW"></a>
+            <a href= "#"><img src="images/Linkedin.png" alt="LI"></a>
+        </div>
+    </footer>   
+
+</div>
+<!--END OF FOOTER-->
+
+</body>
+
+</html>

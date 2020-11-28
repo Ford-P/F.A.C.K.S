@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tab Title-->
+    <title>Blog it Out</title>
+    <!--Css Stylesheets-->
+    <link rel='stylesheet' href='CSS/blog(Fatima).css'>
+  </head>
+  <header> 
+    <!--Logo picture with link as you click the logo-->
+    <a href="index.html">
+      <img src="images/Logos-02.png" alt="facks">
+    </a>
+    <!--Navbar-->
+    <nav>
+      <ul>
+        <li><a href='index.html' >Home</a></li>
+        <li><a href='News.html'>News</a></li>
+        <li><a href='#'>Information<img class="resize" src="images/Dropdown.png" alt="Drop down icon"></a>
+          <ul class="dropdown">
+              <li class="dropdownElements"><a href="CovidInfo.html">What is COVID 19</a></li>
+              <li class="dropdownElements"><a href="Symptoms.html">Symptoms</a></li>
+              <li class="dropdownElements"><a href="Protection.html">Protection</a></li>
+              <li class="dropdownElements"><a href="Risk.html">Risk groups</a></li>
+          </ul>
+      </li>
+        <li><a href='sources.html'>Sources</a></li>
+        <li><a href='Stats.html'>Statistic</a></li>
+        <li><a href='Gallery.html'>Gallery</a></li>
+        <li><a href='Blog.html' class="active">Blog</a></li>
+        <li><a href='Events.html'>Events</a></li>
+        <li><a href='aboutUs.html'>About Us</a></li> 
+        <li><a href='Contacts.html'>Contacts</a></li>
+      </ul>
+  </nav>
+  
+  </header>
+  <body>
+    <!--Breadcrumbs to help navigate to previous page-->
+    <div class="breadcrumb">
+      <a href="Blog.html">Blog</a>
+    </div>
+    <div class="main">
+      <!--Side container that have the covid count and NHS Inforamtion box -->
+      <aside>
+        <!--Widget for Covid count-->
+        <div class="elfsight-app-ffeef132-42ac-43de-8ad1-16001e1c0b99"></div>
+        <br><br>
+        <h2>NHS Information</h2>
+        <!--NHS Information Covid Help API-->
+        <div id="db">
+          <iframe src="https://api-bridge.azurewebsites.net/conditions/?p=coronavirus-covid-19&aspect=name,overview_short,symptoms_short,symptoms_long,treatments_overview_short,other_treatments_long,self_care_long,prevention_short,causes_short&tab=1&uid=gallery.html" ></iframe>
+        </div>
+      </aside>
+      <!--Blog section where user can write ther covid experience and upload it anonymous-->
+      <section>
+        <h2>Covid Experience</h2>
+        <!--Blog Container for user input of their comment and user information-->
+        <div class="blog-container">
+          <div class="commentBox">
+            <textarea rows="10" id="text" placeholder="Write your experience...." ></textarea>
+          </div>
+          <br>
+          <div class="form">
+            <b>Email:</b><input type="email" id="email" placeholder="...." name="email" required>
+          </div>
+          <div class="form">
+            <b>Name:</b><input type="text" id="name" placeholder="...." name="name">
+          </div>
+          <div class="form">
+            <input type="checkbox" name="anon"> <b> Anonymous</b>
+          </div>
+          <!--Once the post button is clicked, user comment and name will appear in the DIV 'blogEntry'-->
+          <button class="form" type="button" onclick="post()">Post</button>
+          <br><br>
+          <!--DIV box for new blog entry-->
+          <div id="blogEntry">
+            <p id="user"></p>
+            <p id="commenText"></p>
+          </div>  
+        </div>        
+      </section>       
+    </div>
+    <!--All javascript link is lace at the bottom as it helps load the script faster-->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="Javascript/blog.js"></script> 
+  </body>
+  <footer>
+    <!--Div where the logo for FACKS and copyright is -->
+    <div class="footerLogo">
+      <img src="images/Logos-04.png" alt="footerLogo">
+        <h3>Copyright © 2020 All Rights Reserved by F.A.C.K.S Society</h3>
+    </div>
+    <!--Additional links-->
+    <div class="footerLinks">
+      <p class="links">
+        <a href= "#">Support Us</a>
+        <a href= "#">F.A.Q</a>
+        <a href= "#">Policies</a>
+        <a href= "#">Terms&Conditions</a>
+        <a href= "#">Cookies</a>
+      </p>
+    </div>
+    <!--Social Media Links-->
+    <div class="SocialIcons"> 
+      <a href= "#"><img src="images/googleplus.png" alt="GP"></a>
+      <a href= "#"><img src="images/Instagram.png" alt="IG"></a>
+      <a href= "#"><img src="images/Facebook.png" alt="FB"></a>
+      <a href= "#"><img src="images/Twitter.png" alt="TW"></a>
+      <a href= "#"><img src="images/Linkedin.png" alt="LI"></a>
+    </div>
+    <!--Made By Me-->
+    <p><b>By Fatima Mae Orellana</b></p>
+  </footer>   
+</html>

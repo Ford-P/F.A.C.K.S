@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tab Title-->
+    <title>Gallery</title>
+    <!--CSS stylesheet link -->
+    <link rel='stylesheet' href='CSS/gallery(Fatima).css'>
+  </head>
+  <header> 
+    <!--Logo picture with link as you click the logo-->
+    <a href="index.html">
+      <img src="images/Logos-02.png" alt="facks">
+    </a>
+    <!--Navbar-->
+    <nav>
+      <ul>
+        <li><a href='index.html' >Home</a></li>
+        <li><a href='News.html'>News</a></li>
+        <li><a href='#'>Information<img class="resize" src="images/Dropdown.png" alt="Drop down icon"></a>
+          <ul class="dropdown">
+              <li class="dropdownElements"><a href="CovidInfo.html">What is COVID 19</a></li>
+              <li class="dropdownElements"><a href="Symptoms.html">Symptoms</a></li>
+              <li class="dropdownElements"><a href="Protection.html">Protection</a></li>
+              <li class="dropdownElements"><a href="Risk.html">Risk groups</a></li>
+          </ul>
+      </li>
+        <li><a href='sources.html'>Sources</a></li>
+        <li><a href='Stats.html'>Statistic</a></li>
+        <li><a href='Gallery.html' class="active">Gallery</a></li>
+        <li><a href='Blog.html'>Blog</a></li>
+        <li><a href='Events.html'>Events</a></li>
+        <li><a href='aboutUs.html'>About Us</a></li> 
+        <li><a href='Contacts.html'>Contacts</a></li>
+      </ul>
+  </nav>
+
+  </header>
+  <body>
+    <!--Breadcrumbs to help navigate to previous page-->
+    <div class="breadcrumb">
+      <a href="Gallery.html">Gallery</a>
+    </div>
+    <div class="main">
+      <!--Side container that have the covid count and NHS Inforamtion box -->
+      <aside>
+        <!--Widget for Covid count-->
+        <div class="elfsight-app-ffeef132-42ac-43de-8ad1-16001e1c0b99"></div>
+        <br>
+        <h2>NHS Information</h2>
+        <!--NHS Information Covid Help API-->
+        <div id="db">
+          <iframe src="https://api-bridge.azurewebsites.net/conditions/?p=coronavirus-covid-19&aspect=name,overview_short,symptoms_short,symptoms_long,treatments_overview_short,other_treatments_long,self_care_long,prevention_short,causes_short&tab=1&uid=gallery.html" ></iframe>
+        </div>
+      </aside>
+
+      <!--Section for image galleries-->
+      <section>
+        <h2>Covid</h2>
+        <!--ImgContainer is where the Image slideshow is place-->
+        <div class="ImgContainer">
+          <!--Img1 will hold every images in one place with the help of CSS display: none;-->
+          <div class="Img1">
+            <!--Once Image is shown in the slideshow it will give the user the link to the gallery-->
+            <a href="Covid.html"><img src="gallery/airport.jpg"></a>
+          </div>
+        
+          <div class="Img1">
+            <a href="Covid.html"><img src="gallery/corona.jpg"></a>
+          </div>
+        
+          <div class="Img1">
+            <a href="Covid.html"><img src="gallery/covid19.jpg"></a>
+          </div>
+        
+          <div class="Img1">
+            <a href="Covid.html"><img src="gallery/coronavirus2.jpg"></a>
+          </div>
+        
+          <div class="Img1">
+            <a href="Covid.html"><img src="gallery/protective-suit.jpg"></a>
+          </div>
+        
+          <div class="Img1">
+            <a href="Covid.html"><img src="gallery/wash.jpg"></a>
+          </div>
+          <!--Navigates through the image slide show-->
+          <a class="bck" onclick="Slides(-1, 0)" style="color: white"><b>❮</b></a>
+          <a class="frw" onclick="Slides(1, 0)" style="color: white"><b>❯</b></a>
+          <!--ImgPrev is where the Image slideshow thumbnail is place-->
+          <div class="ImgPrev">
+            <!--Thumbnail images will be display side by side underneath the ImgContainer DIV-->
+            <div class="SidePic">
+              <!--The hovering class allows to make the image clear when the pointer hover at an specified thumbnail,
+                it also bring the thumbnail image display on the slidechow once it is clicked  -->
+              <img class="hovering" src="gallery/airport.jpg" style="width:100%" onclick="ViewSlide(1)">
+            </div>
+            <div class="SidePic">
+              <img class="hovering" src="gallery/corona.jpg" style="width:100%" onclick="ViewSlide(2)">
+            </div>
+            <div class="SidePic">
+              <img class="hovering" src="gallery/covid19.jpg" style="width:100%" onclick="ViewSlide(3)">
+            </div>
+            <div class="SidePic">
+              <img class="hovering" src="gallery/coronavirus2.jpg" style="width:100%" onclick="ViewSlide(4)">
+            </div>
+            <div class="SidePic">
+              <img class="hovering" src="gallery/protective-suit.jpg" style="width:100%" onclick="ViewSlide(5)">
+            </div>    
+            <div class="SidePic">
+              <img class="hovering" src="gallery/wash.jpg" style="width:100%" onclick="ViewSlide(6)">
+            </div>
+           </div>
+          </div>
+          <br><br>
+          <h2>Don't Be A Karen</h2>
+          <!--Another ImgContainer for the second Image slideshow-->
+          <div class="ImgContainer">
+            <div class="Img2">
+              <a href="DontBeAKaren.html"><img src="gallery/shopping.jpg"></a>
+            </div>
+        
+            <div class="Img2">
+              <a href="DontBeAKaren.html"><img src="gallery/toilet-paper.jpg"></a>
+            </div>
+        
+            <div class="Img2">
+              <a href="DontBeAKaren.html"><img src="gallery/coronavirus.jpg"></a>
+            </div>
+        
+            <div class="Img2">
+              <a href="DontBeAKaren.html"><img src="gallery/ehimetalor-akhere-unuabona.jpg"></a>
+            </div>
+        
+            <div class="Img2">
+              <a href="DontBeAKaren.html"><img src="gallery/mouth-guard.jpg"></a>
+            </div>
+        
+            <div class="Img2">
+              <a href="DontBeAKaren.html"><img src="gallery/united-nations-covid-19-response.jpg"></a>
+            </div>
+        
+            <a class="bck" onclick="Slides(-1, 1)" style="color: white"><b>❮</b></a>
+            <a class="frw" onclick="Slides(1, 1)" style="color: white"><b>❯</b></a>
+        
+            <div class="ImgPrev">
+              <div class="SidePic">
+                <img class="hovering2" src="gallery/shopping.jpg" style="width:100%" onclick="ViewSlide(1)">
+              </div>
+              <div class="SidePic">
+                <img class="hovering2" src="gallery/toilet-paper.jpg" style="width:100%" onclick="ViewSlide(2)">
+              </div>
+              <div class="SidePic">
+                <img class="hovering2" src="gallery/coronavirus.jpg" style="width:100%" onclick="ViewSlide(3)">
+              </div>
+              <div class="SidePic">
+                <img class="hovering2" src="gallery/ehimetalor-akhere-unuabona.jpg" style="width:100%" onclick="ViewSlide(4)">
+              </div>
+              <div class="SidePic">
+                <img class="hovering2" src="gallery/mouth-guard.jpg" style="width:100%" onclick="ViewSlide(5)">
+              </div>    
+              <div class="SidePic">
+                <img class="hovering2" src="gallery/united-nations-covid-19-response.jpg" style="width:100%" onclick="ViewSlide(6)">
+              </div>
+            </div>
+          </div>
+      </section>  
+    </div>
+      <!--All javascript link is lace at the bottom as it helps load the script faster-->
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <script src="Javascript/gallery.js"></script>
+  </body>
+  <footer>
+    <!--Div where the logo for FACKS and copyright is -->
+    <div class="footerLogo">
+      <img src="images/Logos-04.png" alt="footerLogo">
+      <h3>Copyright © 2020 All Rights Reserved by F.A.C.K.S Society</h3>
+    </div>
+    <!--Additional links-->
+    <div class="footerLinks">
+      <p class="links">
+        <a href= "#">Support Us</a>
+        <a href= "#">F.A.Q</a>
+        <a href= "#">Policies</a>
+        <a href= "#">Terms&Conditions</a>
+        <a href= "#">Cookies</a>
+      </p>
+    </div>
+    <!--Social Media Links-->
+    <div class="SocialIcons">
+      <a href= "#"><img src="images/googleplus.png" alt="GP"></a>
+      <a href= "#"><img src="images/Instagram.png" alt="IG"></a>
+      <a href= "#"><img src="images/Facebook.png" alt="FB"></a>
+      <a href= "#"><img src="images/Twitter.png" alt="TW"></a>
+      <a href= "#"><img src="images/Linkedin.png" alt="LI"></a>
+    </div>
+    <!--Made By Me-->
+    <p><b>By Fatima Mae Orellana</b></p>
+  </footer>   
+
+</html>
