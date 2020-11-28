@@ -86,6 +86,7 @@ header {
   background: #30a1e2;
   position: fixed;
   width: 100vw;
+  z-index: 3;
 }
 header img{  
   width:20%;
