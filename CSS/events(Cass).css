@@ -23,11 +23,10 @@
     margin:5px;
 }
 .content {
-    width: 100vw;
+    width: 50vw;
     background-color: #30a1e2;
     overflow: hidden;
     position: relative;
-    display: block;
     box-sizing: border-box;
     margin-bottom: 10%;
 }
@@ -35,13 +34,13 @@
 /*---CSS CODE---*/
 
 body {
-    padding-top:250px;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
 
 header {
+    margin-bottom: 250px;
     background: #30a1e2;
     position: fixed;
     width: 100vw;
