@@ -194,7 +194,7 @@ nav ul li ul li a:not(.symptomsList){
   }
 
   footer{
-    position: absolute;
+    position: relative;
     border-top: 1px solid #575757;
     width: 100%;
     display: block;
