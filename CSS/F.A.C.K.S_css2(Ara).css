@@ -194,17 +194,17 @@ nav ul li ul li a:not(.symptomsList){
   }
 
   footer{
-    position: fixed;
+    position: absolute;
     border-top: 1px solid #575757;
-    bottom: 0;
     width: 100%;
+    display: block;
   }
   .footerLogo{
     float: left;
-    display: inline-block;
     vertical-align: top;
     margin: 0;
   }
+  
   .footerLogo img{
     width: 270px;
     height: 100px;
@@ -225,9 +225,8 @@ nav ul li ul li a:not(.symptomsList){
   
   .links{
     margin: 20px 0 20px;
-    padding: 0;
     text-align: center;
-    padding: 0;
+  
   }
   .links a{
     display: inline-block;
@@ -235,7 +234,6 @@ nav ul li ul li a:not(.symptomsList){
     text-decoration: none;
     color: #575757;
     font-size:x-large;
-    
   }
   .links a:hover{
     color:  #fff600;
