@@ -24,7 +24,6 @@
 }
 .content {
     width: 50%;
-    height: 100%;
     background-color: #30a1e2;
     margin-top:250px;
     margin-bottom: 10%;
@@ -35,6 +34,7 @@
 
 body {
     margin: 0;
+    padding-top:250px;
     font-family: 'Times New Roman', Times, serif;
 }
 
