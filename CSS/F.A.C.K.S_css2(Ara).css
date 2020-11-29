@@ -54,7 +54,7 @@
 
 .pfp a img{
     float: center;
-    width: 292px;
+    width: 15%;
     height: 350px;
     margin-left: 2%;
 }
@@ -63,8 +63,8 @@
   float: center;
   margin-left: -2.1%;
 }
-.pfp a, .pfp img{
-    width: 292px;
+.pfp a{
+    width: 15%;
     height: 350px;
     margin-left: 2%;
 
