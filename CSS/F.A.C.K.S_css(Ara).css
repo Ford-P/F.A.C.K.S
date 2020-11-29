@@ -19,9 +19,10 @@ body{
   padding: 0;
 }
 .slidershow{
-  width: 880px;
+  width: 50%;
   height: 780px;
   overflow: hidden;
+  margin-top: 250px;
 }
 .middle{
   position: absolute;
