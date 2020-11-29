@@ -1,5 +1,4 @@
-﻿body {
-}
+
 .event-image>img{
     width:150px;
     display:inline;
@@ -31,10 +30,6 @@
     padding-bottom: 80%
 }
 
-body {
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
 /*---CSS CODE---*/
 
 body {
@@ -129,10 +124,6 @@ nav ul li ul li a:not(.symptomsList) {
     float: left;
 }
 
-.resize {
-    width: 30px;
-    height: auto;
-}
 
 .resize {
     width: 10px;
