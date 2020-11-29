@@ -108,6 +108,7 @@ nav ul li ul li a:not(.symptomsList){
   font-size: 18px;
   color: #575757;
   padding: 5px;
+  z-index: 3;
 }
 .breadcrumb a{
   color: #30a1e2;
