@@ -157,61 +157,62 @@ nav ul li ul li a:not(.symptomsList) {
   }
 
 /*---End of navbar design---*/
-
 footer{
+    position: absolute;
     border-top: 1px solid #575757;
+    bottom: 0;
     width: 100%;
-    display: block;
-  }
-  .footerLogo{
+}
+.footerLogo{
     float: left;
     vertical-align: top;
     margin: 0;
-  }
-  
-  .footerLogo img{
+}
+.footerLogo img{
     width: 270px;
     height: 100px;
     
-  }
-  .footerLogo h3{
+}
+.footerLogo h3{
     display: block;
     margin: 0;
     text-align: justify;
     font-size: small;
     color: #575757;
-  }
-  .footerLinks{
+}
+.footerLinks{
     display: block;
     float: center;
     margin:0;
-  }
-  
-  .links{
+}
+
+.links{
     margin: 20px 0 20px;
+    padding: 0;
     text-align: center;
-  
-  }
-  .links a{
+    padding: 0;
+}
+.links a{
     display: inline-block;
     margin-right: 30px;
     text-decoration: none;
     color: #575757;
     font-size:x-large;
-  }
-  .links a:hover{
+    
+}
+.links a:hover{
     color:  #fff600;
-  }
-  .SocialIcons{
+}
+.SocialIcons{
     float: center;
     margin-left: 50%;
-  }
-  .SocialIcons a, .SocialIcons img{
+}
+.SocialIcons a, .SocialIcons img{
     width: 35px;
     height: 35px;
     margin-right: 10px;
-  
-  }
-  .SocialIcons img:hover{
+
+}
+.SocialIcons img:hover{
     color: #575757;
-  }
+}
