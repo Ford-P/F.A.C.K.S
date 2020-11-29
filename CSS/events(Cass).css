@@ -28,7 +28,9 @@
 .content {
     width: 50%;
     background-color: #30a1e2;
-    margin-bottom: 10%;
+    margin:auto;
+    padding-top:250px;
+    padding-bottom:10%;
 
 }
 
