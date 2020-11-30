@@ -94,10 +94,6 @@ nav ul li ul li a:not(.symptomsList){
   width: 30px;
   height: auto;
 }
-.resize {
-  width: 10px;
-  height: auto;
-}
 
 /*---End of navbar design---*/
 .breadcrumb{
