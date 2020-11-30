@@ -18,7 +18,7 @@
 .event-info {
   background-color: white;
   width: 75%;
-  clear:none;
+  clear:both;
   float:left;
   margin:5px;
 }
