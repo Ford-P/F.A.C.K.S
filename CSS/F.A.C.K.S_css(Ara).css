@@ -175,10 +175,9 @@ nav ul li ul li a:not(.symptomsList){
   float: left;
 }
 .resize {
-  width: 30px;
+  width: 10px;
   height: auto;
 }
-
 .breadcrumb {
   display: block;
   position: absolute;
