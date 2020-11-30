@@ -90,10 +90,6 @@ nav ul li ul li a:not(.listAlign){
   width: 30px;
   height: auto;
 }
-.resize {
-  width: 10px;
-  height: auto;
-}
 
 .breadcrumb {
   display: block;
