@@ -10,6 +10,7 @@
   float:right;
   align-content: center;
   width:22%;
+  position:relative;
 }
 
 .event-info p{
