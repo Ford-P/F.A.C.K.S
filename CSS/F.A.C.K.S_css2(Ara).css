@@ -159,10 +159,7 @@ nav ul li:hover ul:not(.symptomsList){
 nav ul li ul li a:not(.symptomsList){
   float: left;
 }
-.resize {
-  width: 30px;
-  height: auto;
-}
+
 .resize {
   width: 10px;
   height: auto;
